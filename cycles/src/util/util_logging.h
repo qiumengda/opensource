@@ -60,6 +60,22 @@ std::ostream& operator <<(std::ostream &os,
 std::ostream& operator <<(std::ostream &os,
                           const float3 &value);
 
+#if 0
+#define dlog(format, ...) fprintf(stdout, "[qmd %ld %lu %s %d %s] "format, \
+	time(NULL), \
+	/*getpid()*/pthread_self(), \
+	__FILE__, \
+	__LINE__, \
+	__FUNCTION__, \
+	##__VA_ARGS__);//fflush(stdout)
+#endif
+
+#define dlog(format,...) \
+	do{ \
+		fprintf(stderr, "[%s %s %d] "format"", __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__); \
+	}while(0)
+
+
 CCL_NAMESPACE_END
 
 #endif /* __UTIL_LOGGING_H__ */

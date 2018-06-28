@@ -57,6 +57,8 @@ struct Options options;
 
 static void session_print(const string& str)
 {
+	fprintf(stderr, "%s\n", str.c_str());
+	return;
 	/* print with carriage return to overwrite previous */
 	printf("\r%s", str.c_str());
 

@@ -36,9 +36,6 @@
 #include "util/util_task.h"
 #include "util/util_time.h"
 
-#define dlog(format, ...) fprintf(stderr, "[qmd %ld %lu %s %d %s] "format, time(NULL), /*getpid()*/pthread_self(), __FILE__, __LINE__, __FUNCTION__, ##__VA_ARGS__);//fflush(stdout)
-
-
 CCL_NAMESPACE_BEGIN;
 
 /* Note about  preserve_tile_device option for tile manager:

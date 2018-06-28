@@ -36,8 +36,8 @@ void util_logging_init(const char *argv0)
 	         google::GLOG_ERROR);
 
 	google::InitGoogleLogging(argv0);
-	SetCommandLineOption("logtostderr", "1");
-	SetCommandLineOption("v", "0");
+	SetCommandLineOption("logtostderr", "1");// logtostderr=1
+	SetCommandLineOption("v", "0"); // v=0
 	SetCommandLineOption("stderrthreshold", severity_fatal);
 	SetCommandLineOption("minloglevel", severity_fatal);
 #else
@@ -49,9 +49,9 @@ void util_logging_start(void)
 {
 #ifdef WITH_CYCLES_LOGGING
 	using CYCLES_GFLAGS_NAMESPACE::SetCommandLineOption;
-	SetCommandLineOption("logtostderr", "1");
-	SetCommandLineOption("v", "2");
-	SetCommandLineOption("stderrthreshold", "1");
+	SetCommandLineOption("logtostderr", "1"); // logtostderr=1
+	SetCommandLineOption("v", "0"); // v=2
+	SetCommandLineOption("stderrthreshold", "0"); // stderrthreshold=1
 	SetCommandLineOption("minloglevel", "0");
 #endif
 }
