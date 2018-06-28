@@ -38,7 +38,7 @@
 #include "util/util_progress.h"
 #include "util/util_set.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Triangle */
 

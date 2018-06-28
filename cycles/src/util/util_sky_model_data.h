@@ -92,7 +92,7 @@ an updated version of this code has been published!
 
 ============================================================================ */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /*
 

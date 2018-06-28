@@ -31,7 +31,7 @@
 
 #include "util/util_foreach.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 thread_mutex ShaderManager::lookup_table_mutex;
 vector<float> ShaderManager::beckmann_table;

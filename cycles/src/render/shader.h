@@ -34,7 +34,7 @@
 #include "util/util_thread.h"
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class Device;
 class DeviceScene;

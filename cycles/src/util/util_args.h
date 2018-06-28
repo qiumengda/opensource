@@ -22,7 +22,7 @@
 
 #include <OpenImageIO/argparse.h>
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 OIIO_NAMESPACE_USING
 

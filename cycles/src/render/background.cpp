@@ -26,7 +26,7 @@
 #include "util/util_math.h"
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 NODE_DEFINE(Background)
 {

@@ -28,7 +28,7 @@
 #include "util/util_hash.h"
 #include "util/util_logging.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ParticleCurveData::ParticleCurveData()
 {

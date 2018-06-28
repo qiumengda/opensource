@@ -41,7 +41,7 @@
 #include "blender/blender_session.h"
 #include "blender/blender_util.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 bool BlenderSession::headless = false;
 int BlenderSession::num_resumable_chunks = 0;

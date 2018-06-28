@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Motion Curve Primitive
  *

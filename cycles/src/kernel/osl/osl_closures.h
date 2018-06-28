@@ -40,7 +40,7 @@
 #include <OSL/oslexec.h>
 #include <OSL/genclosure.h>
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 OSL::ClosureParam *closure_emission_params();
 OSL::ClosureParam *closure_background_params();

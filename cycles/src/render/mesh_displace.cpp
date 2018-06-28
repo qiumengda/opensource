@@ -24,7 +24,7 @@
 #include "util/util_foreach.h"
 #include "util/util_progress.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 static float3 compute_face_normal(const Mesh::Triangle& t, float3 *verts)
 {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Determines pixel coordinates and offset for the current thread.
  * Returns whether the thread should do any work.

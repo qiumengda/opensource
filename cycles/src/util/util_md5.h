@@ -33,7 +33,7 @@
 #include "util/util_string.h"
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class MD5Hash {
 public:

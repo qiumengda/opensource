@@ -25,7 +25,7 @@
 #  include "../../guardedalloc/MEM_guardedalloc.h"
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Internal use only. */
 void util_guarded_mem_alloc(size_t n);

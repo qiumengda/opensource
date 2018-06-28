@@ -21,7 +21,7 @@
 #include "util/util_half.h"
 #include "util/util_image.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 namespace {
 

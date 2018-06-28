@@ -22,7 +22,7 @@
  * Shading model by Brent Burley (Disney): "Physically Based Shading at Disney" (2012)
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 typedef ccl_addr_space struct PrincipledSheenBsdf {
 	SHADER_CLOSURE_BASE;

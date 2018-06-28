@@ -20,7 +20,7 @@
 #include "subd/subd_dice.h"
 #include "subd/subd_patch.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* EdgeDice Base */
 

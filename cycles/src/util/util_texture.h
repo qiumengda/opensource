@@ -17,7 +17,7 @@
 #ifndef __UTIL_TEXTURE_H__
 #define __UTIL_TEXTURE_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Texture limits on devices. */
 #define TEX_NUM_MAX (INT_MAX >> 4)

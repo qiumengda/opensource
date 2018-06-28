@@ -24,7 +24,7 @@
 #include "util/util_simd.h"
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Half Floats */
 

@@ -19,7 +19,7 @@
  * Generic functions to look up mesh, curve and volume primitive attributes for
  * shading and render passes. */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Generic primitive attribute reading functions */
 

@@ -21,7 +21,7 @@
 #include "bvh/bvh_build.h"
 #include "bvh/bvh_params.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class BVHBuild;
 struct Transform;

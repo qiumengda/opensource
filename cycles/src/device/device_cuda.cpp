@@ -50,7 +50,7 @@
 
 #include "kernel/split/kernel_split_data_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifndef WITH_CUDA_DYNLOAD
 

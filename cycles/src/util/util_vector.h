@@ -27,7 +27,7 @@
 #include "util/util_guarded_allocator.h"
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Vector
  *

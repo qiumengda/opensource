@@ -31,7 +31,7 @@
 #include <OSL/oslquery.h>
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class Device;
 class DeviceScene;

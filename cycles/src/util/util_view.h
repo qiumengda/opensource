@@ -20,7 +20,7 @@
 /* Functions to display a simple OpenGL window using GLUT, simplified to the
  * bare minimum we need to reduce boilerplate code in tests apps. */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 typedef void (*ViewInitFunc)(void);
 typedef void (*ViewExitFunc)(void);

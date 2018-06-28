@@ -32,7 +32,7 @@
 #  include <unistd.h>
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 int system_cpu_group_count()
 {

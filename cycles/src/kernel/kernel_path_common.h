@@ -16,7 +16,7 @@
 
 #include "util/util_hash.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device_inline void kernel_path_trace_setup(KernelGlobals *kg,
                                                int sample,

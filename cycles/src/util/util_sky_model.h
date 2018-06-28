@@ -300,7 +300,7 @@ HINT #1:   if you want to model the sky of an earth-like planet that orbits
            previous paragraph.
 */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifndef _SKY_MODEL_H_
 #define _SKY_MODEL_H_

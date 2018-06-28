@@ -29,7 +29,7 @@ the case with all other microfacet-based BSDF implementations in Cycles.
 Other than that, the implementation directly follows the paper.
 */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device int bsdf_ashikhmin_shirley_setup(MicrofacetBsdf *bsdf)
 {

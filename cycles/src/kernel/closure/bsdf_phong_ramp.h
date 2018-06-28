@@ -33,7 +33,7 @@
 #ifndef __BSDF_PHONG_RAMP_H__
 #define __BSDF_PHONG_RAMP_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifdef __OSL__
 

@@ -24,7 +24,7 @@
 #  include <boost/function.hpp>
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #if (__cplusplus > 199711L) || (defined(_MSC_VER) && _MSC_VER >= 1800)
 #  define function_bind std::bind

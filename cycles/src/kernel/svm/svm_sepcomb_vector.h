@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Vector combine / separate, used for the RGB and XYZ nodes */
 

@@ -20,7 +20,7 @@
 #include "util/util_types.h"
 #include "kernel/svm/svm_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class ShaderGraph;
 class ShaderInput;

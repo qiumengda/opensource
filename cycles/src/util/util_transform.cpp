@@ -52,7 +52,7 @@
 #include "util/util_boundbox.h"
 #include "util/util_math.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Transform Inverse */
 

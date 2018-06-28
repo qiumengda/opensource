@@ -27,7 +27,7 @@
 #  endif
 #endif  /* _WIN32 */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 string string_printf(const char *format, ...)
 {

@@ -30,7 +30,7 @@
 #include "util/util_progress.h"
 #include "util/util_logging.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 static void shade_background_pixels(Device *device, DeviceScene *dscene, int res, vector<float3>& pixels, Progress& progress)
 {

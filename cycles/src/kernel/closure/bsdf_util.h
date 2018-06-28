@@ -33,7 +33,7 @@
 #ifndef __BSDF_UTIL_H__
 #define __BSDF_UTIL_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device float fresnel_dielectric(
         float eta, const float3 N,

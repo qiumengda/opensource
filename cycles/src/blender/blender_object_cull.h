@@ -20,7 +20,7 @@
 #include "blender/blender_sync.h"
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class Scene;
 

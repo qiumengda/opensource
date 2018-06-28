@@ -34,7 +34,7 @@
 #include "render/attribute.h"
 
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Threads */
 

@@ -44,7 +44,7 @@
 #include "kernel/closure/bsdf_principled_diffuse.h"
 #include "kernel/closure/bssrdf.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 using namespace OSL;
 

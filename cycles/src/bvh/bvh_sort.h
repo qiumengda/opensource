@@ -20,7 +20,7 @@
 
 #include <cstddef>
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class BVHReference;
 class BVHUnaligned;

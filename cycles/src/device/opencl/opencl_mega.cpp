@@ -26,7 +26,7 @@
 #include "util/util_path.h"
 #include "util/util_time.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class OpenCLDeviceMegaKernel : public OpenCLDeviceBase
 {

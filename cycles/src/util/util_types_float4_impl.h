@@ -25,7 +25,7 @@
 #  include <cstdio>
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifndef __KERNEL_GPU__
 #ifdef __KERNEL_SSE__

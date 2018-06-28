@@ -38,7 +38,7 @@
 #include "util/util_opengl.h"
 #include "util/util_hash.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Constructor */
 

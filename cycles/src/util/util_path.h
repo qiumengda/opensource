@@ -29,7 +29,7 @@
 #include "util/util_types.h"
 #include "util/util_vector.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* program paths */
 void path_init(const string& path = "", const string& user_path = "");

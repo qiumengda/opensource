@@ -21,7 +21,7 @@
 #define __KERNEL_OPENCL__
 
 /* no namespaces in opencl */
-#define CCL_NAMESPACE_BEGIN
+#define CCL_NAMESPACE_BEGIN;
 #define CCL_NAMESPACE_END
 
 #ifdef __CL_NOINLINE__

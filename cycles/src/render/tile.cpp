@@ -20,7 +20,7 @@
 #include "util/util_foreach.h"
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 namespace {
 

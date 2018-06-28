@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* First step of the shadow prefiltering, performs the shadow division and stores all data
  * in a nice and easy rectangular array that can be passed to the NLM filter.

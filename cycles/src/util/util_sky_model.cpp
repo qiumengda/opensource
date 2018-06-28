@@ -105,7 +105,7 @@ All instructions on how to use this code are in the accompanying header file.
 #include <stdlib.h>
 #include <math.h>
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 //   Some macro definitions that occur elsewhere in ART, and that have to be
 //   replicated to make this a stand-alone module.

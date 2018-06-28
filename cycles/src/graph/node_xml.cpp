@@ -20,7 +20,7 @@
 #include "util/util_string.h"
 #include "util/util_transform.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 static bool xml_read_boolean(const char *value)
 {

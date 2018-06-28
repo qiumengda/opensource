@@ -33,7 +33,7 @@
 #ifndef __BSDF_TRANSPARENT_H__
 #define __BSDF_TRANSPARENT_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device void bsdf_transparent_setup(ShaderData *sd, const float3 weight, int path_flag)
 {

@@ -26,7 +26,7 @@
 #include "util/util_foreach.h"
 #include "util/util_hash.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 NODE_DEFINE(Integrator)
 {

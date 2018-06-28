@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device_inline void kernel_filter_nlm_calc_difference(int dx, int dy,
                                                          const float *ccl_restrict weight_image,

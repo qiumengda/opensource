@@ -20,7 +20,7 @@
  * ray intersection we use a precomputed triangle storage to accelerate
  * intersection at the cost of more memory usage */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* normal on triangle  */
 ccl_device_inline float3 triangle_normal(KernelGlobals *kg, ShaderData *sd)

@@ -32,7 +32,7 @@
 #  define ccl_addr_space
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Constants */
 #define OBJECT_MOTION_PASS_SIZE 2

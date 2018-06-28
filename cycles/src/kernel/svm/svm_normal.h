@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device void svm_node_normal(KernelGlobals *kg, ShaderData *sd, float *stack, uint in_normal_offset, uint out_normal_offset, uint out_dot_offset, int *offset)
 {

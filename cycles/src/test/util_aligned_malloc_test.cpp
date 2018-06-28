@@ -20,7 +20,7 @@
 
 #define CHECK_ALIGNMENT(ptr, align) EXPECT_EQ((size_t)ptr % align, 0)
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 TEST(util_aligned_malloc, aligned_malloc_16)
 {

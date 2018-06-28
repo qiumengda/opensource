@@ -17,7 +17,7 @@
 #include "device/device.h"
 #include "device/device_memory.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Device Memory */
 

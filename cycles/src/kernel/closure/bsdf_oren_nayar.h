@@ -17,7 +17,7 @@
 #ifndef __BSDF_OREN_NAYAR_H__
 #define __BSDF_OREN_NAYAR_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 typedef ccl_addr_space struct OrenNayarBsdf {
 	SHADER_CLOSURE_BASE;

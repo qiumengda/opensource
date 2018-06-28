@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device void svm_node_combine_hsv(KernelGlobals *kg, ShaderData *sd, float *stack, uint hue_in, uint saturation_in, uint value_in, int *offset)
 {

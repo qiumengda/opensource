@@ -24,7 +24,7 @@
 #include "util/util_math.h"
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Affine transformation, stored as 4x3 matrix. */
 

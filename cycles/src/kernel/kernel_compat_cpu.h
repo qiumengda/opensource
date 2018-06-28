@@ -61,7 +61,7 @@
 #  define expf(x) ((float)exp((double)(x)))
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Assertions inside the kernel only work for the CPU device, so we wrap it in
  * a macro which is empty for other devices */

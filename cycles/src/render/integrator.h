@@ -21,7 +21,7 @@
 
 #include "graph/node.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class Device;
 class DeviceScene;

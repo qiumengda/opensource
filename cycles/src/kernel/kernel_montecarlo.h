@@ -33,7 +33,7 @@
 #ifndef __KERNEL_MONTECARLO_CL__
 #define __KERNEL_MONTECARLO_CL__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* distribute uniform xy on [0,1] over unit disk [-1,1] */
 ccl_device void to_unit_disk(float *x, float *y)

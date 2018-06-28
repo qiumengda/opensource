@@ -60,7 +60,7 @@
 #define KERNEL_ARCH cpu
 #include "kernel/kernels/cpu/kernel_cpu_impl.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Memory Copy */
 

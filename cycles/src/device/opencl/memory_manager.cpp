@@ -21,7 +21,7 @@
 #include "device/opencl/opencl.h"
 #include "device/opencl/memory_manager.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 void MemoryManager::DeviceBuffer::add_allocation(Allocation& allocation)
 {

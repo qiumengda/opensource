@@ -24,7 +24,7 @@
 #include "util/util_algorithm.h"
 #include "util/util_time.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Device Task */
 

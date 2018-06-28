@@ -17,7 +17,7 @@
 #ifndef __UTIL_STATIC_ASSERT_H__
 #define __UTIL_STATIC_ASSERT_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* TODO(sergey): In theory CUDA might work with own static assert
  * implementation since it's just pure C++.

@@ -27,7 +27,7 @@
 #include "util/util_md5.h"
 #include "util/util_queue.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 namespace {
 

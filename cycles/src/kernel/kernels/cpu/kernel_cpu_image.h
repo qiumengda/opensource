@@ -17,7 +17,7 @@
 #ifndef __KERNEL_CPU_IMAGE_H__
 #define __KERNEL_CPU_IMAGE_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 template<typename T> struct TextureInterpolator  {
 #define SET_CUBIC_SPLINE_WEIGHTS(u, t) \

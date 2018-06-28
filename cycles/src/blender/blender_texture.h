@@ -20,7 +20,7 @@
 #include <stdlib.h>
 #include "blender/blender_sync.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 void point_density_texture_space(BL::Scene& b_scene,
                                  BL::ShaderNodeTexPointDensity& b_point_density_node,

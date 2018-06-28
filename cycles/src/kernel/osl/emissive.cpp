@@ -41,7 +41,7 @@
 #include "kernel/closure/alloc.h"
 #include "kernel/closure/emissive.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 using namespace OSL;
 

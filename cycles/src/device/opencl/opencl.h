@@ -27,7 +27,7 @@
 
 #include "device/opencl/memory_manager.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Disable workarounds, seems to be working fine on latest drivers. */
 #define CYCLES_DISABLE_DRIVER_WORKAROUNDS

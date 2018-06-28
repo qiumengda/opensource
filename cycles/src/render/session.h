@@ -27,7 +27,7 @@
 #include "util/util_thread.h"
 #include "util/util_vector.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class BufferParams;
 class Device;

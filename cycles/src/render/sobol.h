@@ -19,7 +19,7 @@
 
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #define SOBOL_BITS 32
 #define SOBOL_MAX_DIMENSIONS 21201

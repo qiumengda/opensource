@@ -17,7 +17,7 @@
 #ifndef __CYCLES_XML_H__
 #define __CYCLES_XML_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class Scene;
 

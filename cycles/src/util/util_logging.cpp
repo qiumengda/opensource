@@ -23,7 +23,7 @@
 #  define snprintf _snprintf
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 void util_logging_init(const char *argv0)
 {

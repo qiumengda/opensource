@@ -22,7 +22,7 @@
 
 #include "util/util_string.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class ImageManager;
 class LightManager;

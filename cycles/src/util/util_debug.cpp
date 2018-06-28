@@ -23,7 +23,7 @@
 #include "util/util_logging.h"
 #include "util/util_string.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 DebugFlags::CPU::CPU()
   : avx2(true),

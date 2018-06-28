@@ -21,7 +21,7 @@
 
 #ifdef _WIN32
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 double time_dt()
 {
@@ -45,7 +45,7 @@ CCL_NAMESPACE_END
 #include <sys/time.h>
 #include <unistd.h>
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 double time_dt()
 {

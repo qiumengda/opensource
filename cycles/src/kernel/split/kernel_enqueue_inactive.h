@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device void kernel_enqueue_inactive(KernelGlobals *kg,
                                         ccl_local_param unsigned int *local_queue_atomics)

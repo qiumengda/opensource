@@ -33,7 +33,7 @@
 
 #include "mikktspace.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Per-face bit flags. */
 enum {

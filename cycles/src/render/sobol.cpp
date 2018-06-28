@@ -50,7 +50,7 @@
 
 #include "render/sobol.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #define SOBOL_MAX_NUMBER 32
 

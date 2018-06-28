@@ -40,7 +40,7 @@
 
 #include "kernel/svm/svm_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Stack */
 
@@ -187,7 +187,7 @@ CCL_NAMESPACE_END
 #  include "kernel/svm/svm_bevel.h"
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #define NODES_GROUP(group) ((group) <= __NODES_MAX_GROUP__)
 #define NODES_FEATURE(feature) ((__NODES_FEATURES__ & (feature)) != 0)

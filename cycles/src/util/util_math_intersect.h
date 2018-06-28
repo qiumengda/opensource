@@ -17,7 +17,7 @@
 #ifndef __UTIL_MATH_INTERSECT_H__
 #define __UTIL_MATH_INTERSECT_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Ray Intersection */
 

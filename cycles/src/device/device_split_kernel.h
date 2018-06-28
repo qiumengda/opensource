@@ -20,7 +20,7 @@
 #include "device/device.h"
 #include "render/buffers.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* When allocate global memory in chunks. We may not be able to
  * allocate exactly "CL_DEVICE_MAX_MEM_ALLOC_SIZE" bytes in chunks;

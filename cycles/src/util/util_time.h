@@ -17,7 +17,7 @@
 #ifndef __UTIL_TIME_H__
 #define __UTIL_TIME_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Give current time in seconds in double precision, with good accuracy. */
 

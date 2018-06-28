@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device void svm_node_camera(KernelGlobals *kg, ShaderData *sd, float *stack, uint out_vector, uint out_zdepth, uint out_distance)
 {

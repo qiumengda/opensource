@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device_inline void kernel_filter_construct_gramian(int x, int y,
                                                        int storage_stride,

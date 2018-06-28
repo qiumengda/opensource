@@ -20,7 +20,7 @@
 #include "util/util_types.h"
 #include "util/util_vector.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class Device;
 class DeviceScene;

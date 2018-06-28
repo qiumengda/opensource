@@ -25,7 +25,7 @@
 #include "util/util_boundbox.h"
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* SSE replacements */
 

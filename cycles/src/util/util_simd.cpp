@@ -21,7 +21,7 @@
 #define __KERNEL_SSE2__
 #include "util/util_simd.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 const __m128 _mm_lookupmask_ps[16] = {
 	_mm_castsi128_ps(_mm_set_epi32( 0, 0, 0, 0)),

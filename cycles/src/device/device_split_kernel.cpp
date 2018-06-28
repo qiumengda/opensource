@@ -22,7 +22,7 @@
 #include "util/util_logging.h"
 #include "util/util_time.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 static const double alpha = 0.1; /* alpha for rolling average */
 

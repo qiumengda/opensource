@@ -66,7 +66,7 @@
 #  endif  /* __SPLIT_KERNEL__ */
 #endif  /* KERNEL_STUB */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifndef __SPLIT_KERNEL__
 

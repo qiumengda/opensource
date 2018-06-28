@@ -19,7 +19,7 @@
 
 #include "util/util_atomic.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class Stats {
 public:

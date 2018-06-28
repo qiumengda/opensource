@@ -22,7 +22,7 @@
 
 #include "kernel/kernel_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Layout of BVH tree.
  *

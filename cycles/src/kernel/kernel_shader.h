@@ -31,7 +31,7 @@
 
 #include "kernel/svm/svm.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* ShaderData setup from incoming ray */
 

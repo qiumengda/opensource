@@ -32,7 +32,7 @@
 #include "kernel/closure/bssrdf.h"
 #include "kernel/closure/volume.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Returns the square of the roughness of the closure if it has roughness,
  * 0 for singular closures and 1 otherwise. */

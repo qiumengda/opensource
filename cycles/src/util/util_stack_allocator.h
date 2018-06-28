@@ -20,7 +20,7 @@
 #include <cstddef>
 #include <memory>
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Stack allocator for the use with STL. */
 template <int SIZE, typename T>

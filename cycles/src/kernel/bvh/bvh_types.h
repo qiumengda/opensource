@@ -17,7 +17,7 @@
 #ifndef __BVH_TYPES__
 #define __BVH_TYPES__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Don't inline intersect functions on GPU, this is faster */
 #ifdef __KERNEL_GPU__

@@ -33,7 +33,7 @@
 #ifndef __KERNEL_PROJECTION_CL__
 #define __KERNEL_PROJECTION_CL__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Spherical coordinates <-> Cartesian direction  */
 

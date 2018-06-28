@@ -29,7 +29,7 @@
 #include "util/util_map.h"
 #include "util/util_time.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class MultiDevice : public Device
 {

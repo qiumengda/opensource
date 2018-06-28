@@ -29,7 +29,7 @@
 #define THREADING_DEBUG(...)
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Task Pool */
 

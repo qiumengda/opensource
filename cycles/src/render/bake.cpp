@@ -22,7 +22,7 @@
 
 #include "util/util_foreach.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 BakeData::BakeData(const int object, const size_t tri_offset, const size_t num_pixels):
 m_object(object),

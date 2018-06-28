@@ -17,7 +17,7 @@
 #ifndef __KERNEL_QUEUE_H__
 #define __KERNEL_QUEUE_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /*
  * Queue utility functions for split kernel

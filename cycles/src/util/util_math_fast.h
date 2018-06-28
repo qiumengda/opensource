@@ -45,7 +45,7 @@
 #ifndef __UTIL_FAST_MATH__
 #define __UTIL_FAST_MATH__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device_inline float madd(const float a, const float b, const float c)
 {

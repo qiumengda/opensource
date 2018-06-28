@@ -17,7 +17,7 @@
 #include "kernel/kernel_jitter.h"
 #include "util/util_hash.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Pseudo random numbers, uncomment this for debugging correlations. Only run
  * this single threaded on a CPU for repeatable results. */

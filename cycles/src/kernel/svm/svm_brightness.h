@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device void svm_node_brightness(ShaderData *sd, float *stack, uint in_color, uint out_color, uint node)
 {

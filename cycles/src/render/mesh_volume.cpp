@@ -23,7 +23,7 @@
 #include "util/util_progress.h"
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 static size_t compute_voxel_index(const int3 &resolution, size_t x, size_t y, size_t z)
 {

@@ -47,7 +47,7 @@ OIIO_NAMESPACE_USING
 #include "util/util_map.h"
 #include "util/util_windows.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifdef _WIN32
 #  if defined(_MSC_VER) || defined(__MINGW64__)

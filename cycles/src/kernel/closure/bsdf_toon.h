@@ -33,7 +33,7 @@
 #ifndef __BSDF_TOON_H__
 #define __BSDF_TOON_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 typedef ccl_addr_space struct ToonBsdf {
 	SHADER_CLOSURE_BASE;

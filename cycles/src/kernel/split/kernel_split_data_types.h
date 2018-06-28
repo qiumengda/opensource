@@ -17,7 +17,7 @@
 #ifndef __KERNEL_SPLIT_DATA_TYPES_H__
 #define __KERNEL_SPLIT_DATA_TYPES_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* parameters used by the split kernels, we use a single struct to avoid passing these to each kernel */
 

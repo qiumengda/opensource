@@ -24,7 +24,7 @@
 #include "util/util_logging.h"
 #include "util/util_set.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 Device *device_opencl_create(DeviceInfo& info, Stats &stats, bool background)
 {

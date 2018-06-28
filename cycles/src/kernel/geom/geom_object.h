@@ -22,7 +22,7 @@
  * directly primitives in the BVH with world space locations applied, and the object
  * ID is looked up afterwards. */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Object attributes, for now a fixed size and contents */
 

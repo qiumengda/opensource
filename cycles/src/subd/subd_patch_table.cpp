@@ -34,7 +34,7 @@
 #include <opensubdiv/far/patchTable.h>
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifdef WITH_OPENSUBDIV
 

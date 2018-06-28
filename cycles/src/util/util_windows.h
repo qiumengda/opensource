@@ -31,7 +31,7 @@
 
 #include <windows.h>
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #if _WIN32_WINNT < 0x0601
 typedef WORD tGetActiveProcessorGroupCount();

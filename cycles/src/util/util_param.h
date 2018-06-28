@@ -24,7 +24,7 @@
 #include <OpenImageIO/typedesc.h>
 #include <OpenImageIO/ustring.h>
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 OIIO_NAMESPACE_USING
 

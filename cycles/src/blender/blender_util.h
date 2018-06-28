@@ -38,7 +38,7 @@ unsigned char *BKE_image_get_pixels_for_frame(void *image, int frame);
 float *BKE_image_get_float_pixels_for_frame(void *image, int frame);
 }
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 void python_thread_state_save(void **python_thread_state);
 void python_thread_state_restore(void **python_thread_state);

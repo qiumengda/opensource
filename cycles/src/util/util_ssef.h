@@ -18,7 +18,7 @@
 #ifndef __UTIL_SSEF_H__
 #define __UTIL_SSEF_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifdef __KERNEL_SSE2__
 

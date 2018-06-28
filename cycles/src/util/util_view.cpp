@@ -29,7 +29,7 @@
 #include <GL/glut.h>
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* structs */
 

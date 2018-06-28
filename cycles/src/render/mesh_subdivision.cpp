@@ -25,7 +25,7 @@
 #include "util/util_foreach.h"
 #include "util/util_algorithm.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifdef WITH_OPENSUBDIV
 
@@ -116,7 +116,7 @@ namespace Far {
 } /* namespace OPENSUBDIV_VERSION */
 } /* namespace OpenSubdiv */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 using namespace OpenSubdiv;
 

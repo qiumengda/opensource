@@ -25,7 +25,7 @@
  * and ATTR_STD_MOTION_VERTEX_NORMAL mesh attributes.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Refine triangle intersection to more precise hit point. For rays that travel
  * far the precision is often not so good, this reintersects the primitive from

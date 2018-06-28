@@ -22,7 +22,7 @@
 #include "util/util_algorithm.h"
 #include "util/util_task.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 static const int BVH_SORT_THRESHOLD = 4096;
 

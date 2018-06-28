@@ -17,7 +17,7 @@
 #ifndef __SVM_HSV_H__
 #define __SVM_HSV_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device void svm_node_hsv(KernelGlobals *kg, ShaderData *sd, float *stack, uint4 node, int *offset)
 {

@@ -25,7 +25,7 @@
 #include "util/util_boundbox.h"
 #include "util/util_transform.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 
 BVHUnaligned::BVHUnaligned(const vector<Object*>& objects)

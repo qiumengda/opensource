@@ -34,7 +34,7 @@
 #endif
 
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 using std::map;
 using std::pair;

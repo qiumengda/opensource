@@ -21,7 +21,7 @@
 #  error "Do not include this file directly, include util_types.h instead."
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifndef __KERNEL_GPU__
 struct uchar4 {

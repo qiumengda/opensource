@@ -31,7 +31,7 @@
 
 #include "subd/subd_patch_table.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Global state of object transform update. */
 

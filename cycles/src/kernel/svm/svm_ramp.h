@@ -17,7 +17,7 @@
 #ifndef __SVM_RAMP_H__
 #define __SVM_RAMP_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* NOTE: svm_ramp.h, svm_ramp_util.h and node_ramp_util.h must stay consistent */
 

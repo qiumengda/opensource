@@ -19,7 +19,7 @@
 #include "util/util_algorithm.h"
 #include "util/util_math.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Invert pre-calculated CDF function. */
 void util_cdf_invert(const int resolution,

@@ -25,7 +25,7 @@
  *
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 typedef struct PatchHandle {
 	int array_index, patch_index, vert_index;

@@ -42,7 +42,7 @@
 #include "kernel/closure/alloc.h"
 #include "kernel/closure/bsdf_diffuse_ramp.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 using namespace OSL;
 

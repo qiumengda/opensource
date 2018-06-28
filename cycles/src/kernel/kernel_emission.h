@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Direction Emission */
 ccl_device_noinline float3 direct_emissive_eval(KernelGlobals *kg,

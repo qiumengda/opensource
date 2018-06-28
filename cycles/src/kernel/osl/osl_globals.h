@@ -30,7 +30,7 @@
 using std::isfinite;
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class OSLRenderServices;
 

@@ -29,7 +29,7 @@ using testing::HasSubstr;
 using testing::ScopedMockLog;
 using testing::_;
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 namespace {
 

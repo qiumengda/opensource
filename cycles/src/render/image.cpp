@@ -28,7 +28,7 @@
 #include <OSL/oslexec.h>
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Some helpers to silence warning in templated function. */
 static bool isfinite(uchar /*value*/)

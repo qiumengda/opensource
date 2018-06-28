@@ -37,7 +37,7 @@
 #include <OSL/oslconfig.h>
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 namespace {
 

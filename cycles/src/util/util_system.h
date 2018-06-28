@@ -19,7 +19,7 @@
 
 #include "util/util_string.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Get number of available CPU groups. */
 int system_cpu_group_count();

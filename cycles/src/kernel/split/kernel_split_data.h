@@ -20,7 +20,7 @@
 #include "kernel/split/kernel_split_data_types.h"
 #include "kernel/kernel_globals.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device_inline uint64_t split_data_buffer_size(KernelGlobals *kg, size_t num_elements)
 {

@@ -19,7 +19,7 @@
 
 #include <queue>
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 using std::queue;
 

@@ -18,7 +18,7 @@
 
 #include "util/util_string.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* ******** Tests for string_printf() ******** */
 

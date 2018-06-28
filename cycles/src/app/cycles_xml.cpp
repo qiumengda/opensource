@@ -46,7 +46,7 @@
 
 #include "app/cycles_xml.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* XML reading state */
 

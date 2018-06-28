@@ -36,7 +36,7 @@
 #include "util/util_time.h"
 #include "util/util_queue.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* BVH Build Task */
 

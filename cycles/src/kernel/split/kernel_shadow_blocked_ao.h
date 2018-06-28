@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Shadow ray cast for AO. */
 ccl_device void kernel_shadow_blocked_ao(KernelGlobals *kg)

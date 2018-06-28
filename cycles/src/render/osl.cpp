@@ -38,7 +38,7 @@
 
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifdef WITH_OSL
 

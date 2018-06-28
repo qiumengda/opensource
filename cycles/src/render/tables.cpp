@@ -20,7 +20,7 @@
 
 #include "util/util_logging.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Lookup Tables */
 

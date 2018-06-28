@@ -27,7 +27,7 @@
 #  include "util/util_atomic.h"
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* On the CPU, we pass along the struct KernelGlobals to nearly everywhere in
  * the kernel, to access constant data. These are all stored as "textures", but

@@ -33,7 +33,7 @@
 #ifndef __BSDF_MICROFACET_H__
 #define __BSDF_MICROFACET_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 typedef ccl_addr_space struct MicrofacetExtra {
 	float3 color, cspec0;

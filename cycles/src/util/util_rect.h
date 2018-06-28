@@ -19,7 +19,7 @@
 
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Rectangles are represented as a int4 containing the coordinates of the lower-left and
  * upper-right corners in the order (x0, y0, x1, y1). */

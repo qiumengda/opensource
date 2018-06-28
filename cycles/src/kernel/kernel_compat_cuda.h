@@ -19,7 +19,7 @@
 
 #define __KERNEL_GPU__
 #define __KERNEL_CUDA__
-#define CCL_NAMESPACE_BEGIN
+#define CCL_NAMESPACE_BEGIN;
 #define CCL_NAMESPACE_END
 
 /* Selective nodes compilation. */

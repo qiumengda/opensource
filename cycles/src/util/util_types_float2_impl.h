@@ -25,7 +25,7 @@
 #  include <cstdio>
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifndef __KERNEL_GPU__
 __forceinline float float2::operator[](int i) const

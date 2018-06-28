@@ -21,7 +21,7 @@
 #include "util/util_math.h"
 #include "util/util_vector.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Evaluate CDF of a given functor with given range and resolution. */
 template <typename Functor>

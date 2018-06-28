@@ -29,7 +29,7 @@
 #include <string.h>
 #include <stdio.h>
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #define T_MASK ((uint32_t)~0)
 #define T1 /* 0xd76aa478 */ (T_MASK ^ 0x28955b87)

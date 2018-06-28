@@ -23,7 +23,7 @@
 
 #if defined(WITH_NETWORK)
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 typedef map<device_ptr, device_ptr> PtrMap;
 typedef vector<uint8_t> DataVector;

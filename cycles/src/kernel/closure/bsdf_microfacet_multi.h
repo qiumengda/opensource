@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Most of the code is based on the supplemental implementations from https://eheitzresearch.wordpress.com/240-2/. */
 

@@ -32,7 +32,7 @@
 class PtexCache;
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class Object;
 class Scene;

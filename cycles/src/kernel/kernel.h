@@ -22,7 +22,7 @@
 #include "util/util_types.h"
 #include "kernel/kernel_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #define KERNEL_NAME_JOIN(x, y, z) x ## _ ## y ## _ ## z
 #define KERNEL_NAME_EVAL(arch, name)  KERNEL_NAME_JOIN(kernel, arch, name)

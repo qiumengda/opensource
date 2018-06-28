@@ -19,7 +19,7 @@
 
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device_inline uint hash_int_2d(uint kx, uint ky)
 {

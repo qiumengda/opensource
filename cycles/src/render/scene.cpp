@@ -38,7 +38,7 @@
 #include "util/util_logging.h"
 #include "util/util_progress.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 DeviceScene::DeviceScene(Device *device)
 : bvh_nodes(device, "__bvh_nodes", MEM_TEXTURE),

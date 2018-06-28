@@ -52,7 +52,7 @@
 #  include "kernel/split/kernel_branched.h"
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device_inline void kernel_split_path_end(KernelGlobals *kg, int ray_index)
 {

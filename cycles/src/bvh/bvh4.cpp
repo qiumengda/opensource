@@ -23,7 +23,7 @@
 #include "bvh/bvh_node.h"
 #include "bvh/bvh_unaligned.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Can we avoid this somehow or make more generic?
  *

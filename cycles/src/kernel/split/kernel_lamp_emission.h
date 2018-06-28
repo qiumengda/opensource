@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* This kernel operates on QUEUE_ACTIVE_AND_REGENERATED_RAYS.
  * It processes rays of state RAY_ACTIVE and RAY_HIT_BACKGROUND.

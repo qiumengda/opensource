@@ -38,7 +38,7 @@
 #  include <cstdlib>
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 void *util_aligned_malloc(size_t size, int alignment)
 {

@@ -19,7 +19,7 @@
 
 #include "util/util_transform.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* 4x4 projection matrix, perspective or orthographic. */
 

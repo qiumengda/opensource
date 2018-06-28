@@ -35,7 +35,7 @@
 
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Float Pi variations */
 
@@ -333,7 +333,7 @@ CCL_NAMESPACE_END
 
 #include "util/util_rect.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifndef __KERNEL_OPENCL__
 /* Interpolation */

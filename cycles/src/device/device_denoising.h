@@ -23,7 +23,7 @@
 
 #include "kernel/filter/filter_defines.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class DenoisingTask {
 public:

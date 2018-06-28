@@ -17,7 +17,7 @@
 #ifndef __UTIL_AVXF_H__
 #define __UTIL_AVXF_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifdef __KERNEL_AVX__
 struct avxf

@@ -1,0 +1,44 @@
+
+main() // File: app/cycles_standalone.cpp
+	session_init()
+	options.session->wait()
+	session_exit()
+
+
+session_init()
+	options.session = new Session()
+		TaskScheduler::init(.)
+			system_cpu_thread_count()
+		device = Device::create(.)
+		buffers = new RenderBuffers(device)
+		display = new DisplayBuffer(device, .)
+
+	scene_init()
+	options.session->start()
+		Session::run()
+
+
+// In new thread
+Session::run()
+	load_kernels()
+	run_cpu()
+		update_scene()
+			scene->device_update() // File: render/scene.cpp
+				shader_manager->device_update()
+				background->device_update()
+				camera->device_update()
+				mesh_manager->device_update_preprocess()
+				object_manager->device_update()
+				particle_system_manager->device_update()
+				mesh_manager->device_update()
+				object_manager->device_update_flags()
+				image_manager->device_update()
+				camera->device_update_volume()
+				curve_system_manager->device_update()
+				lookup_tables->device_update()
+				light_manager->device_update()
+				integrator->device_update()
+				film->device_update()
+				lookup_tables->device_update()
+				bake_manager->device_update()
+		update_status_time()

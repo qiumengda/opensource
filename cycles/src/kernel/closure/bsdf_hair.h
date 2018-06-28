@@ -33,7 +33,7 @@
 #ifndef __BSDF_HAIR_H__
 #define __BSDF_HAIR_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 typedef ccl_addr_space struct HairBsdf {
 	SHADER_CLOSURE_BASE;

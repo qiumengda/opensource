@@ -28,7 +28,7 @@
 #include "util/util_time.h"
 #include "util/util_thread.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class Progress {
 public:
@@ -363,7 +363,7 @@ protected:
 	string error_message;
 };
 
-CCL_NAMESPACE_END
+CCL_NAMESPACE_END;
 
 #endif /* __UTIL_PROGRESS_H__ */
 

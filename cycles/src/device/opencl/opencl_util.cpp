@@ -27,7 +27,7 @@
 using std::cerr;
 using std::endl;
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 OpenCLCache::Slot::ProgramEntry::ProgramEntry()
  : program(NULL),

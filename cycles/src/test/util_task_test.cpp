@@ -18,7 +18,7 @@
 
 #include "util/util_task.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 namespace {
 

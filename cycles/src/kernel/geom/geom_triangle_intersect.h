@@ -20,7 +20,7 @@
  * intersection at the cost of more memory usage.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device_inline bool triangle_intersect(KernelGlobals *kg,
                                           Intersection *isect,

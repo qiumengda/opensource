@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
- CCL_NAMESPACE_BEGIN
+ CCL_NAMESPACE_BEGIN;
 
 #define ccl_get_feature(buffer, pass) (buffer)[(pass)*pass_stride]
 

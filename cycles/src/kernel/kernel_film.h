@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device float4 film_map(KernelGlobals *kg, float4 irradiance, float scale)
 {

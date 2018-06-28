@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /*This kernel takes care of setting up ray for the next iteration of
  * path-iteration and accumulating radiance corresponding to AO and

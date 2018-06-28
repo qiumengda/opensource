@@ -19,7 +19,7 @@
 
 /* Cycles version number */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #define CYCLES_VERSION_MAJOR    1
 #define CYCLES_VERSION_MINOR    9

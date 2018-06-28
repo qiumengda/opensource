@@ -20,7 +20,7 @@
 #include "util/util_math.h"
 #include "util/util_string.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 bool IESFile::load(ustring ies)
 {

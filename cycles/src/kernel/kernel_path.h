@@ -48,7 +48,7 @@
 #include "kernel/kernel_path_volume.h"
 #include "kernel/kernel_path_subsurface.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device_forceinline bool kernel_path_scene_intersect(
 	KernelGlobals *kg,

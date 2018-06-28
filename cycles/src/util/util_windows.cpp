@@ -18,7 +18,7 @@
 
 #ifdef _WIN32
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #ifdef _M_X64
 #  include <VersionHelpers.h>

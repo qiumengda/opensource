@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* This kernel takes care of rays that hit the background (sceneintersect
  * kernel), and for the rays of state RAY_UPDATE_BUFFER it updates the ray's

@@ -26,7 +26,7 @@
 #include "util/util_time.h"
 #include "util/util_types.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Buffer Params */
 

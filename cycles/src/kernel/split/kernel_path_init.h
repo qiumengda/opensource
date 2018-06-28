@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* This kernel initializes structures needed in path-iteration kernels.
  * This is the first kernel in ray-tracing logic.

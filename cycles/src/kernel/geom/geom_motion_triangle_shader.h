@@ -25,7 +25,7 @@
  * and ATTR_STD_MOTION_VERTEX_NORMAL mesh attributes.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Setup of motion triangle specific parts of ShaderData, moved into this one
  * function to more easily share computation of interpolated positions and

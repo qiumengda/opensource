@@ -17,7 +17,7 @@
 #ifndef __KERNEL_BSSRDF_H__
 #define __KERNEL_BSSRDF_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 typedef ccl_addr_space struct Bssrdf {
 	SHADER_CLOSURE_BASE;

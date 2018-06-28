@@ -16,7 +16,7 @@
 
 /* Functions for retrieving attributes on triangles produced from subdivision meshes */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Patch index for triangle, -1 if not subdivision triangle */
 

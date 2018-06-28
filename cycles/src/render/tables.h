@@ -19,7 +19,7 @@
 
 #include "util/util_list.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class Device;
 class DeviceScene;

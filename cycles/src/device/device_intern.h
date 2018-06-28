@@ -17,7 +17,7 @@
 #ifndef __DEVICE_INTERN_H__
 #define __DEVICE_INTERN_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class Device;
 

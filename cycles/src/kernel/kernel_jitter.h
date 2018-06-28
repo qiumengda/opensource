@@ -16,7 +16,7 @@
 
 /* TODO(sergey): Consider moving portable ctz/clz stuff to util. */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* "Correlated Multi-Jittered Sampling"
  * Andrew Kensler, Pixar Technical Memo 13-01, 2013 */

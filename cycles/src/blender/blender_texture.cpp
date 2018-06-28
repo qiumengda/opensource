@@ -16,7 +16,7 @@
 
 #include "blender/blender_texture.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 namespace {
 

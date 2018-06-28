@@ -31,7 +31,7 @@
 #include "util/util_vector.h"
 #include "util/util_string.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 bool Device::need_types_update = true;
 bool Device::need_devices_update = true;

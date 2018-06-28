@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* This kernel takes care of direct lighting logic.
  * However, the "shadow ray cast" part of direct lighting is handled

@@ -23,7 +23,7 @@
 #include "util/util_list.h"
 #include "util/util_task.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Device Task */
 

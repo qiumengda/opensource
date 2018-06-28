@@ -17,7 +17,7 @@
 #ifndef __UTIL_MATH_MATRIX_H__
 #define __UTIL_MATH_MATRIX_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #define MAT(A, size, row, col) A[(row)*(size)+(col)]
 

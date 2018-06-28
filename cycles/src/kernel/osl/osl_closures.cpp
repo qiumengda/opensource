@@ -63,7 +63,7 @@
 #include "kernel/closure/bsdf_principled_sheen.h"
 #include "kernel/closure/volume.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 using namespace OSL;
 

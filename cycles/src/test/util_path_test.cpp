@@ -18,7 +18,7 @@
 
 #include "util/util_path.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* ******** Tests for path_filename() ******** */
 

@@ -23,7 +23,7 @@
 #include "util/util_string.h"
 #include "util/util_vector.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 struct Node;
 struct NodeType;

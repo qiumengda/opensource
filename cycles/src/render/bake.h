@@ -23,7 +23,7 @@
 #include "util/util_progress.h"
 #include "util/util_vector.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class BakeData {
 public:

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* This kernel takes care of the logic to process "material of type holdout",
  * indirect primitive emission, bsdf blurring, probabilistic path termination
@@ -171,4 +171,4 @@ ccl_device void kernel_holdout_emission_blurring_pathtermination_ao(
 #endif
 }
 
-CCL_NAMESPACE_END
+CCL_NAMESPACE_END;

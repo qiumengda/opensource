@@ -18,7 +18,7 @@
 
 #include "kernel/filter/filter_defines.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 DenoisingTask::DenoisingTask(Device *device)
 : tiles_mem(device, "denoising tiles_mem", MEM_READ_WRITE),

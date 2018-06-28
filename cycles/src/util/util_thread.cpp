@@ -19,7 +19,7 @@
 #include "util/util_system.h"
 #include "util/util_windows.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 thread::thread(function<void(void)> run_cb, int group)
   : run_cb_(run_cb),

@@ -24,7 +24,7 @@
 
 #include "util/util_vector.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 class ImageMetaData;
 class Scene;

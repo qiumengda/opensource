@@ -22,7 +22,7 @@
 #include "util/util_param.h"
 #include "util/util_transform.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Node Type */
 

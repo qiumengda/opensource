@@ -19,7 +19,7 @@
 
 #include <list>
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 using std::list;
 

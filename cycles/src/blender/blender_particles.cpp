@@ -23,7 +23,7 @@
 
 #include "util/util_foreach.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Utilities */
 

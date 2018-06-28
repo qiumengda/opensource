@@ -58,7 +58,7 @@
 #  include <Ptexture.h>
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* RenderServices implementation */
 

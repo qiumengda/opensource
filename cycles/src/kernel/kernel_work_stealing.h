@@ -17,7 +17,7 @@
 #ifndef __KERNEL_WORK_STEALING_H__
 #define __KERNEL_WORK_STEALING_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /*
  * Utility functions for work stealing

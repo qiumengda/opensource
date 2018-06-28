@@ -22,7 +22,7 @@
 #include "util/util_string.h"
 #include "util/util_xml.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 struct XMLReader {
 	map<ustring, Node*> node_map;

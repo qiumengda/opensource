@@ -24,7 +24,7 @@
 #include "util/util_simd.h"
 #endif
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 ccl_device uchar float_to_byte(float val)
 {

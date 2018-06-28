@@ -25,7 +25,7 @@
  * the code has been extended and modified to support more primitives and work
  * with CPU/CUDA/OpenCL. */
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 #include "kernel/bvh/bvh_types.h"
 

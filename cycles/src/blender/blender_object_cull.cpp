@@ -20,7 +20,7 @@
 
 #include "blender/blender_object_cull.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 BlenderObjectCulling::BlenderObjectCulling(Scene *scene, BL::Scene& b_scene)
         : use_scene_camera_cull_(false),

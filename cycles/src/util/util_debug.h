@@ -22,7 +22,7 @@
 
 #include "bvh/bvh_params.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Global storage for all sort of flags used to fine-tune behavior of particular
  * areas for the development purposes, without officially exposing settings to

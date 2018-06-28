@@ -36,7 +36,7 @@
 #include "kernel/kernel_montecarlo.h"
 #include "kernel/kernel_camera.h"
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 static float shutter_curve_eval(float x,
                                 array<float>& shutter_curve)

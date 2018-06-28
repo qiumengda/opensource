@@ -17,7 +17,7 @@
 #ifndef __SVM_TYPES_H__
 #define __SVM_TYPES_H__
 
-CCL_NAMESPACE_BEGIN
+CCL_NAMESPACE_BEGIN;
 
 /* Stack */
 
