@@ -19,14 +19,24 @@
 #include "util/util_math.h"
 
 #include <stdio.h>
+#include <sys/time.h>
 #ifdef _MSC_VER
 #  define snprintf _snprintf
 #endif
 
 CCL_NAMESPACE_BEGIN;
 
+static struct timeval tv_begin;
+double gettime()
+{
+	struct timeval tv_now;
+	gettimeofday(&tv_now, NULL);
+	return (tv_now.tv_sec-tv_begin.tv_sec)*1000000+(tv_now.tv_usec-tv_begin.tv_usec);
+}
+
 void util_logging_init(const char *argv0)
 {
+	gettimeofday(&tv_begin, NULL);
 #ifdef WITH_CYCLES_LOGGING
 	using CYCLES_GFLAGS_NAMESPACE::SetCommandLineOption;
 

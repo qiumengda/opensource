@@ -533,7 +533,7 @@ void Session::run_cpu()
 		bool no_tiles = !tile_manager.next();
 		bool need_tonemap = false;
 
-		dlog("\n");
+		dlog("run_cpu check 1\n");
 		if(params.background) {
 			/* if no work left and in background mode, we can stop immediately */
 			if(no_tiles) {
@@ -577,6 +577,7 @@ void Session::run_cpu()
 				break;
 		}
 
+		dlog("run_cpu check 2\n");
 		if(!no_tiles) {
 			/* buffers mutex is locked entirely while rendering each
 			 * sample, and released/reacquired on each iteration to allow
@@ -598,6 +599,7 @@ void Session::run_cpu()
 			update_status_time();
 
 			/* render */
+			dlog("render\n");
 			render();
 
 			/* update status and timing */
@@ -610,8 +612,10 @@ void Session::run_cpu()
 				progress.set_error(device->error_message());
 		}
 
+		dlog("run_cpu check 3\n");
 		device->task_wait();
 
+		dlog("run_cpu check 4\n");
 		{
 			thread_scoped_lock reset_lock(delayed_reset.mutex);
 			thread_scoped_lock buffers_lock(buffers_mutex);
@@ -634,6 +638,7 @@ void Session::run_cpu()
 			tiles_written = update_progressive_refine(progress.get_cancel());
 		}
 
+		dlog("run_cpu check 5\n");
 		progress.set_update();
 	}
 

@@ -9,7 +9,11 @@ session_init()
 	options.session = new Session()
 		TaskScheduler::init(.)
 			system_cpu_thread_count()
-		device = Device::create(.)
+			threads[...] = new thread(...) // Create multi thread
+				TaskScheduler::thread_run(thread_id)
+					thread_wait_pop(entry)
+					entry.task->run(thread_id)
+		device = Device::create(...)
 		buffers = new RenderBuffers(device)
 		display = new DisplayBuffer(device, .)
 
@@ -42,3 +46,9 @@ Session::run()
 				lookup_tables->device_update()
 				bake_manager->device_update()
 		update_status_time()
+		render()
+			device->task_add(task)  // Add task
+		device->task_wait()
+
+
+

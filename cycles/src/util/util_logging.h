@@ -70,9 +70,18 @@ std::ostream& operator <<(std::ostream &os,
 	##__VA_ARGS__);//fflush(stdout)
 #endif
 
+extern double gettime();
 #define dlog(format,...) \
 	do{ \
-		fprintf(stderr, "[%s %s %d] "format"", __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__); \
+		double t = gettime(); \
+		int sec = t/1000000; \
+		int usec = (int)t%1000000; \
+		fprintf(stderr, "[qmd %6d.%06d %s %s %d] "format"", \
+			sec, usec, \
+			basename(__FILE__), \
+			__FUNCTION__, \
+			__LINE__, \
+			##__VA_ARGS__); \
 	}while(0)
 
 
