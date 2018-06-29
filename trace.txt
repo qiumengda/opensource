@@ -9,25 +9,35 @@ session_init()
 	options.session = new Session()
 		TaskScheduler::init(.)
 			system_cpu_thread_count()
-			threads[...] = new thread(...) // Create multi thread
+			threads[...] = new thread(...) 
+				// Create render thread
 				TaskScheduler::thread_run(thread_id)
-					thread_wait_pop(entry)
-					entry.task->run(thread_id)
 		device = Device::create(...)
+			REGISTER_KERNEL(path_trace)
+			=path_trace_kernel(KERNEL_FUNCTIONS(path_trace))
+			=path_trace_kernel(kernel_cpu_path_trace, \
+					kernel_cpu_sse2_path_trace, \
+					kernel_cpu_sse3_path_trace, \
+					kernel_cpu_sse41_path_trace, \
+					kernel_cpu_avx_path_trace, \
+					kernel_cpu_avx2_path_trace)
+				architecture_name = "AVX2"
+				kernel = kernel_cpu_avx2_path_trace
 		buffers = new RenderBuffers(device)
 		display = new DisplayBuffer(device, .)
 
 	scene_init()
-	options.session->start()
+	options.session->start() // Create session thread
 		Session::run()
 
 
-// In new thread
+// In session thread
 Session::run()
 	load_kernels()
 	run_cpu()
 		update_scene()
-			scene->device_update() // File: render/scene.cpp
+			scene->device_update() 
+				// File: render/scene.cpp
 				shader_manager->device_update()
 				background->device_update()
 				camera->device_update()
@@ -47,8 +57,36 @@ Session::run()
 				bake_manager->device_update()
 		update_status_time()
 		render()
-			device->task_add(task)  // Add task
+			device->task_add(task)  
+				// Add task, File: device/device_cpu.cpp
+				task = new CPUDeviceTask(this, task)
+					run = function_bind(&CPUDevice::thread_run, device, this)
+				task_pool.push(task)
+					// File util/util_task.cpp
+					TaskScheduler::push(entry, front) 
+						TaskScheduler::queue.push_back(entry)
 		device->task_wait()
+
+
+// In render thread, File: util_task.cpp
+TaskScheduler::thread_run(thread_id)
+	thread_wait_pop(entry)
+		entry = queue.front()
+	entry.task->run(thread_id)
+		CPUDevice::thread_run()
+			thread_render()
+
+// File: device/device_cpu.cpp
+thread_render() 
+	path_trace(task, tile, kg)
+		path_trace_kernel()(...)
+		=kernel_cpu_avx2_path_trace(...)
+		// File: kernel/kernels/cpu/kernel_cpu_impl.h
+		=KERNEL_FUNCTION_FULL_NAME(path_trace)(...) 
+			kernel_path_trace()
+				// File: kernel/kernel_path.h
+				kernel_path_trace_setup()
+
 
 
 

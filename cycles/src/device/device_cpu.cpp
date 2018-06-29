@@ -441,6 +441,7 @@ public:
 
 	void thread_run(DeviceTask *task)
 	{
+		dlog("task->type=%d\n", task->type);
 		if(task->type == DeviceTask::RENDER) {
 			thread_render(*task);
 		}

@@ -1,0 +1,22 @@
+file cycles/bin-dbg/bin/cycles
+set args --debug --samples 3 --output image.png cycles/examples/scene_sphere_bump.xml
+set pagination off
+set logging file gdb.log
+set logging on
+break main
+# sadly, commands not getting executed on reaching breakpoint 2
+#commands 2
+#	set $i=1000
+#	print "commands 2 : %d",$i
+#end
+run
+set $i = 0
+while ( $i < 10000 )
+	step
+	# next
+	# continue
+	set $i = $i + 1
+	#printf "step %d\n",$i
+end
+kill
+quit
