@@ -1,0 +1,321 @@
+D:\Release\windows\glfw\buildwin>cmake -G "NMake Makefiles" ..
+-- The C compiler identification is MSVC 19.23.28107.0
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE)
+-- Using Win32 for window creation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Release/windows/glfw/buildwin
+
+D:\Release\windows\glfw\buildwin>cmake --build .
+Scanning dependencies of target glfw
+[  1%] Building C object src/CMakeFiles/glfw.dir/context.c.obj
+context.c
+[  2%] Building C object src/CMakeFiles/glfw.dir/init.c.obj
+init.c
+[  3%] Building C object src/CMakeFiles/glfw.dir/input.c.obj
+input.c
+[  4%] Building C object src/CMakeFiles/glfw.dir/monitor.c.obj
+monitor.c
+[  4%] Building C object src/CMakeFiles/glfw.dir/vulkan.c.obj
+vulkan.c
+[  5%] Building C object src/CMakeFiles/glfw.dir/window.c.obj
+window.c
+[  6%] Building C object src/CMakeFiles/glfw.dir/win32_init.c.obj
+win32_init.c
+[  7%] Building C object src/CMakeFiles/glfw.dir/win32_joystick.c.obj
+win32_joystick.c
+[  8%] Building C object src/CMakeFiles/glfw.dir/win32_monitor.c.obj
+win32_monitor.c
+[  8%] Building C object src/CMakeFiles/glfw.dir/win32_time.c.obj
+win32_time.c
+[  9%] Building C object src/CMakeFiles/glfw.dir/win32_thread.c.obj
+win32_thread.c
+[ 10%] Building C object src/CMakeFiles/glfw.dir/win32_window.c.obj
+win32_window.c
+[ 11%] Building C object src/CMakeFiles/glfw.dir/wgl_context.c.obj
+wgl_context.c
+[ 12%] Building C object src/CMakeFiles/glfw.dir/egl_context.c.obj
+egl_context.c
+[ 12%] Building C object src/CMakeFiles/glfw.dir/osmesa_context.c.obj
+osmesa_context.c
+[ 13%] Linking C static library glfw3.lib
+[ 13%] Built target glfw
+Scanning dependencies of target boing
+[ 13%] Building C object examples/CMakeFiles/boing.dir/boing.c.obj
+boing.c
+[ 14%] Building RC object examples/CMakeFiles/boing.dir/glfw.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[ 15%] Building C object examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 16%] Linking C executable boing.exe
+[ 16%] Built target boing
+Scanning dependencies of target gears
+[ 17%] Building C object examples/CMakeFiles/gears.dir/gears.c.obj
+gears.c
+[ 18%] Building RC object examples/CMakeFiles/gears.dir/glfw.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[ 19%] Building C object examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 19%] Linking C executable gears.exe
+[ 19%] Built target gears
+Scanning dependencies of target particles
+[ 20%] Building C object examples/CMakeFiles/particles.dir/particles.c.obj
+particles.c
+[ 21%] Building RC object examples/CMakeFiles/particles.dir/glfw.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[ 22%] Building C object examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj
+tinycthread.c
+[ 22%] Building C object examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj
+getopt.c
+[ 23%] Building C object examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 24%] Linking C executable particles.exe
+[ 24%] Built target particles
+Scanning dependencies of target heightmap
+[ 25%] Building C object examples/CMakeFiles/heightmap.dir/heightmap.c.obj
+heightmap.c
+[ 26%] Building RC object examples/CMakeFiles/heightmap.dir/glfw.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[ 27%] Building C object examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 27%] Linking C executable heightmap.exe
+[ 27%] Built target heightmap
+Scanning dependencies of target splitview
+[ 27%] Building C object examples/CMakeFiles/splitview.dir/splitview.c.obj
+splitview.c
+[ 28%] Building RC object examples/CMakeFiles/splitview.dir/glfw.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[ 29%] Building C object examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 30%] Linking C executable splitview.exe
+[ 30%] Built target splitview
+Scanning dependencies of target offscreen
+[ 31%] Building C object examples/CMakeFiles/offscreen.dir/offscreen.c.obj
+offscreen.c
+[ 32%] Building RC object examples/CMakeFiles/offscreen.dir/glfw.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[ 32%] Building C object examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 33%] Linking C executable offscreen.exe
+[ 33%] Built target offscreen
+Scanning dependencies of target triangle-opengl
+[ 34%] Building C object examples/CMakeFiles/triangle-opengl.dir/triangle-opengl.c.obj
+triangle-opengl.c
+[ 35%] Building RC object examples/CMakeFiles/triangle-opengl.dir/glfw.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[ 36%] Building C object examples/CMakeFiles/triangle-opengl.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 36%] Linking C executable triangle-opengl.exe
+[ 36%] Built target triangle-opengl
+Scanning dependencies of target sharing
+[ 37%] Building C object examples/CMakeFiles/sharing.dir/sharing.c.obj
+sharing.c
+[ 38%] Building RC object examples/CMakeFiles/sharing.dir/glfw.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[ 39%] Building C object examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 40%] Linking C executable sharing.exe
+[ 40%] Built target sharing
+Scanning dependencies of target wave
+[ 41%] Building C object examples/CMakeFiles/wave.dir/wave.c.obj
+wave.c
+[ 41%] Building RC object examples/CMakeFiles/wave.dir/glfw.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[ 42%] Building C object examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 43%] Linking C executable wave.exe
+[ 43%] Built target wave
+Scanning dependencies of target windows
+[ 44%] Building C object examples/CMakeFiles/windows.dir/windows.c.obj
+windows.c
+[ 45%] Building RC object examples/CMakeFiles/windows.dir/glfw.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[ 46%] Building C object examples/CMakeFiles/windows.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 47%] Linking C executable windows.exe
+[ 47%] Built target windows
+Scanning dependencies of target clipboard
+[ 48%] Building C object tests/CMakeFiles/clipboard.dir/clipboard.c.obj
+clipboard.c
+[ 48%] Building C object tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj
+getopt.c
+[ 49%] Building C object tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 50%] Linking C executable clipboard.exe
+[ 50%] Built target clipboard
+Scanning dependencies of target events
+[ 50%] Building C object tests/CMakeFiles/events.dir/events.c.obj
+events.c
+[ 51%] Building C object tests/CMakeFiles/events.dir/__/deps/getopt.c.obj
+getopt.c
+[ 52%] Building C object tests/CMakeFiles/events.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 53%] Linking C executable events.exe
+[ 53%] Built target events
+Scanning dependencies of target msaa
+[ 54%] Building C object tests/CMakeFiles/msaa.dir/msaa.c.obj
+msaa.c
+[ 54%] Building C object tests/CMakeFiles/msaa.dir/__/deps/getopt.c.obj
+getopt.c
+[ 55%] Building C object tests/CMakeFiles/msaa.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 56%] Linking C executable msaa.exe
+[ 56%] Built target msaa
+Scanning dependencies of target glfwinfo
+[ 57%] Building C object tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.obj
+glfwinfo.c
+[ 58%] Building C object tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.obj
+getopt.c
+[ 59%] Building C object tests/CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 59%] Building C object tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.obj
+glad_vulkan.c
+[ 60%] Linking C executable glfwinfo.exe
+[ 60%] Built target glfwinfo
+Scanning dependencies of target iconify
+[ 61%] Building C object tests/CMakeFiles/iconify.dir/iconify.c.obj
+iconify.c
+[ 61%] Building C object tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj
+getopt.c
+[ 62%] Building C object tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 63%] Linking C executable iconify.exe
+[ 63%] Built target iconify
+Scanning dependencies of target monitors
+[ 63%] Building C object tests/CMakeFiles/monitors.dir/monitors.c.obj
+monitors.c
+[ 64%] Building C object tests/CMakeFiles/monitors.dir/__/deps/getopt.c.obj
+getopt.c
+[ 65%] Building C object tests/CMakeFiles/monitors.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 66%] Linking C executable monitors.exe
+[ 66%] Built target monitors
+Scanning dependencies of target reopen
+[ 67%] Building C object tests/CMakeFiles/reopen.dir/reopen.c.obj
+reopen.c
+[ 68%] Building C object tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 68%] Linking C executable reopen.exe
+[ 68%] Built target reopen
+Scanning dependencies of target cursor
+[ 69%] Building C object tests/CMakeFiles/cursor.dir/cursor.c.obj
+cursor.c
+[ 70%] Building C object tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 70%] Linking C executable cursor.exe
+[ 70%] Built target cursor
+Scanning dependencies of target empty
+[ 71%] Building C object tests/CMakeFiles/empty.dir/empty.c.obj
+empty.c
+[ 72%] Building C object tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.obj
+tinycthread.c
+[ 73%] Building C object tests/CMakeFiles/empty.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 74%] Linking C executable empty.exe
+[ 74%] Built target empty
+Scanning dependencies of target gamma
+[ 75%] Building C object tests/CMakeFiles/gamma.dir/gamma.c.obj
+gamma.c
+[ 75%] Building C object tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 76%] Linking C executable gamma.exe
+[ 76%] Built target gamma
+Scanning dependencies of target icon
+[ 77%] Building C object tests/CMakeFiles/icon.dir/icon.c.obj
+icon.c
+[ 78%] Building C object tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 79%] Linking C executable icon.exe
+[ 79%] Built target icon
+Scanning dependencies of target inputlag
+[ 80%] Building C object tests/CMakeFiles/inputlag.dir/inputlag.c.obj
+inputlag.c
+[ 81%] Building C object tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.obj
+getopt.c
+[ 81%] Building C object tests/CMakeFiles/inputlag.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 82%] Linking C executable inputlag.exe
+[ 82%] Built target inputlag
+Scanning dependencies of target joysticks
+[ 83%] Building C object tests/CMakeFiles/joysticks.dir/joysticks.c.obj
+joysticks.c
+[ 84%] Building C object tests/CMakeFiles/joysticks.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 85%] Linking C executable joysticks.exe
+[ 85%] Built target joysticks
+Scanning dependencies of target tearing
+[ 86%] Building C object tests/CMakeFiles/tearing.dir/tearing.c.obj
+tearing.c
+[ 86%] Building C object tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 87%] Linking C executable tearing.exe
+[ 87%] Built target tearing
+Scanning dependencies of target threads
+[ 88%] Building C object tests/CMakeFiles/threads.dir/threads.c.obj
+threads.c
+[ 89%] Building C object tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj
+tinycthread.c
+[ 90%] Building C object tests/CMakeFiles/threads.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 90%] Linking C executable threads.exe
+[ 90%] Built target threads
+Scanning dependencies of target timeout
+[ 91%] Building C object tests/CMakeFiles/timeout.dir/timeout.c.obj
+timeout.c
+[ 92%] Building C object tests/CMakeFiles/timeout.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 93%] Linking C executable timeout.exe
+[ 93%] Built target timeout
+Scanning dependencies of target title
+[ 94%] Building C object tests/CMakeFiles/title.dir/title.c.obj
+title.c
+D:\Release\windows\glfw\tests\title.c(1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+[ 94%] Building C object tests/CMakeFiles/title.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[ 95%] Linking C executable title.exe
+[ 95%] Built target title
+Scanning dependencies of target triangle-vulkan
+[ 96%] Building C object tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.obj
+triangle-vulkan.c
+[ 97%] Building C object tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj
+glad_vulkan.c
+[ 98%] Linking C executable triangle-vulkan.exe
+[ 98%] Built target triangle-vulkan
+Scanning dependencies of target window
+[ 99%] Building C object tests/CMakeFiles/window.dir/window.c.obj
+window.c
+[100%] Building C object tests/CMakeFiles/window.dir/__/deps/glad_gl.c.obj
+glad_gl.c
+[100%] Linking C executable window.exe
+[100%] Built target window
+
+D:\Release\windows\glfw\buildwin>

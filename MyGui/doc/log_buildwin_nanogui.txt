@@ -1,0 +1,208 @@
+D:\3.sc_doc\00.git\qmd.gui\buildwin>cmake -G "NMake Makefiles" ..
+-- The CXX compiler identification is MSVC 19.23.28107.0
+-- The C compiler identification is MSVC 19.23.28107.0
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/cl.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- NanoGUI: using OpenGL backend.
+-- NanoGUI: building shared library.
+-- Using Win32 for window creation
+-- NanoGUI: building the Python plugin.
+-- Found Python: C:/Users/Ocean/AppData/Local/Programs/Python/Python38/python.exe (found version "3.8.0") found components: Interpreter Development
+-- pybind11 v2.6.0 dev1
+-- Performing Test HAS_MSVC_GL_LTCG
+-- Performing Test HAS_MSVC_GL_LTCG - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/3.sc_doc/00.git/qmd.gui/buildwin
+
+D:\3.sc_doc\00.git\qmd.gui\buildwin>cmake --build .
+Scanning dependencies of target glfw_objects
+[  1%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.obj
+context.c
+[  2%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.obj
+init.c
+[  3%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.obj
+input.c
+[  4%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.obj
+monitor.c
+[  6%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.obj
+vulkan.c
+[  7%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.obj
+window.c
+[  8%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/win32_init.c.obj
+win32_init.c
+[  9%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/win32_joystick.c.obj
+win32_joystick.c
+[ 11%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/win32_monitor.c.obj
+win32_monitor.c
+[ 12%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/win32_time.c.obj
+win32_time.c
+[ 13%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/win32_thread.c.obj
+win32_thread.c
+[ 14%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/win32_window.c.obj
+win32_window.c
+[ 16%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/wgl_context.c.obj
+wgl_context.c
+[ 17%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.obj
+egl_context.c
+[ 18%] Building C object ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.obj
+osmesa_context.c
+[ 18%] Built target glfw_objects
+[ 19%] Running bin2c
+Scanning dependencies of target nanogui
+[ 20%] Building C object CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.obj
+nanovg.c
+[ 22%] Building CXX object CMakeFiles/nanogui.dir/src/texture_gl.cpp.obj
+texture_gl.cpp
+[ 23%] Building CXX object CMakeFiles/nanogui.dir/src/shader_gl.cpp.obj
+shader_gl.cpp
+[ 24%] Building CXX object CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.obj
+renderpass_gl.cpp
+[ 25%] Building CXX object CMakeFiles/nanogui.dir/src/opengl.cpp.obj
+opengl.cpp
+[ 27%] Building C object CMakeFiles/nanogui.dir/ext/glad/src/glad.c.obj
+glad.c
+[ 28%] Building CXX object CMakeFiles/nanogui.dir/nanogui_resources.cpp.obj
+nanogui_resources.cpp
+[ 29%] Building CXX object CMakeFiles/nanogui.dir/src/common.cpp.obj
+common.cpp
+[ 30%] Building CXX object CMakeFiles/nanogui.dir/src/widget.cpp.obj
+widget.cpp
+[ 32%] Building CXX object CMakeFiles/nanogui.dir/src/theme.cpp.obj
+theme.cpp
+[ 33%] Building CXX object CMakeFiles/nanogui.dir/src/layout.cpp.obj
+layout.cpp
+[ 34%] Building CXX object CMakeFiles/nanogui.dir/src/screen.cpp.obj
+screen.cpp
+[ 35%] Building CXX object CMakeFiles/nanogui.dir/src/label.cpp.obj
+label.cpp
+[ 37%] Building CXX object CMakeFiles/nanogui.dir/src/window.cpp.obj
+window.cpp
+[ 38%] Building CXX object CMakeFiles/nanogui.dir/src/popup.cpp.obj
+popup.cpp
+[ 39%] Building CXX object CMakeFiles/nanogui.dir/src/checkbox.cpp.obj
+checkbox.cpp
+[ 40%] Building CXX object CMakeFiles/nanogui.dir/src/button.cpp.obj
+button.cpp
+[ 41%] Building CXX object CMakeFiles/nanogui.dir/src/popupbutton.cpp.obj
+popupbutton.cpp
+[ 43%] Building CXX object CMakeFiles/nanogui.dir/src/combobox.cpp.obj
+combobox.cpp
+[ 44%] Building CXX object CMakeFiles/nanogui.dir/src/progressbar.cpp.obj
+progressbar.cpp
+[ 45%] Building CXX object CMakeFiles/nanogui.dir/src/slider.cpp.obj
+slider.cpp
+[ 46%] Building CXX object CMakeFiles/nanogui.dir/src/messagedialog.cpp.obj
+messagedialog.cpp
+[ 48%] Building CXX object CMakeFiles/nanogui.dir/src/textbox.cpp.obj
+textbox.cpp
+[ 49%] Building CXX object CMakeFiles/nanogui.dir/src/textarea.cpp.obj
+textarea.cpp
+[ 50%] Building CXX object CMakeFiles/nanogui.dir/src/imagepanel.cpp.obj
+imagepanel.cpp
+[ 51%] Building CXX object CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.obj
+vscrollpanel.cpp
+[ 53%] Building CXX object CMakeFiles/nanogui.dir/src/colorwheel.cpp.obj
+colorwheel.cpp
+[ 54%] Building CXX object CMakeFiles/nanogui.dir/src/colorpicker.cpp.obj
+colorpicker.cpp
+[ 55%] Building CXX object CMakeFiles/nanogui.dir/src/graph.cpp.obj
+graph.cpp
+[ 56%] Building CXX object CMakeFiles/nanogui.dir/src/tabwidget.cpp.obj
+tabwidget.cpp
+[ 58%] Building CXX object CMakeFiles/nanogui.dir/src/canvas.cpp.obj
+canvas.cpp
+[ 59%] Building CXX object CMakeFiles/nanogui.dir/src/texture.cpp.obj
+texture.cpp
+[ 60%] Building CXX object CMakeFiles/nanogui.dir/src/shader.cpp.obj
+shader.cpp
+[ 61%] Building CXX object CMakeFiles/nanogui.dir/src/imageview.cpp.obj
+imageview.cpp
+[ 62%] Building CXX object CMakeFiles/nanogui.dir/src/traits.cpp.obj
+traits.cpp
+[ 64%] Linking CXX shared library nanogui.dll
+   Creating library nanogui.lib and object nanogui.exp
+Generating code
+Finished generating code
+   Creating library nanogui.lib and object nanogui.exp
+Generating code
+Finished generating code
+[ 64%] Built target nanogui
+Scanning dependencies of target example1
+[ 65%] Building CXX object CMakeFiles/example1.dir/src/example1.cpp.obj
+example1.cpp
+[ 66%] Linking CXX executable example1.exe
+[ 66%] Built target example1
+Scanning dependencies of target example2
+[ 67%] Building CXX object CMakeFiles/example2.dir/src/example2.cpp.obj
+example2.cpp
+[ 69%] Linking CXX executable example2.exe
+[ 69%] Built target example2
+Scanning dependencies of target example3
+[ 70%] Building CXX object CMakeFiles/example3.dir/src/example3.cpp.obj
+example3.cpp
+[ 71%] Linking CXX executable example3.exe
+[ 71%] Built target example3
+Scanning dependencies of target example4
+[ 72%] Building CXX object CMakeFiles/example4.dir/src/example4.cpp.obj
+example4.cpp
+[ 74%] Linking CXX executable example4.exe
+[ 74%] Built target example4
+Scanning dependencies of target example_icons
+[ 75%] Building CXX object CMakeFiles/example_icons.dir/src/example_icons.cpp.obj
+example_icons.cpp
+[ 76%] Linking CXX executable example_icons.exe
+[ 76%] Built target example_icons
+Scanning dependencies of target nanogui-python
+[ 77%] Building CXX object python/CMakeFiles/nanogui-python.dir/main.cpp.obj
+main.cpp
+[ 79%] Building CXX object python/CMakeFiles/nanogui-python.dir/glfw.cpp.obj
+glfw.cpp
+[ 80%] Building CXX object python/CMakeFiles/nanogui-python.dir/icons.cpp.obj
+icons.cpp
+[ 81%] Building CXX object python/CMakeFiles/nanogui-python.dir/color.cpp.obj
+color.cpp
+[ 82%] Building CXX object python/CMakeFiles/nanogui-python.dir/widget.cpp.obj
+widget.cpp
+[ 83%] Building CXX object python/CMakeFiles/nanogui-python.dir/layout.cpp.obj
+layout.cpp
+[ 85%] Building CXX object python/CMakeFiles/nanogui-python.dir/basics.cpp.obj
+basics.cpp
+[ 86%] Building CXX object python/CMakeFiles/nanogui-python.dir/button.cpp.obj
+button.cpp
+[ 87%] Building CXX object python/CMakeFiles/nanogui-python.dir/tabs.cpp.obj
+tabs.cpp
+[ 88%] Building CXX object python/CMakeFiles/nanogui-python.dir/textbox.cpp.obj
+textbox.cpp
+[ 90%] Building CXX object python/CMakeFiles/nanogui-python.dir/textarea.cpp.obj
+textarea.cpp
+[ 91%] Building CXX object python/CMakeFiles/nanogui-python.dir/theme.cpp.obj
+theme.cpp
+[ 92%] Building CXX object python/CMakeFiles/nanogui-python.dir/formhelper.cpp.obj
+formhelper.cpp
+[ 93%] Building CXX object python/CMakeFiles/nanogui-python.dir/misc.cpp.obj
+misc.cpp
+[ 95%] Building CXX object python/CMakeFiles/nanogui-python.dir/canvas.cpp.obj
+canvas.cpp
+[ 96%] Building CXX object python/CMakeFiles/nanogui-python.dir/nanovg.cpp.obj
+nanovg.cpp
+[ 97%] Building CXX object python/CMakeFiles/nanogui-python.dir/render.cpp.obj
+render.cpp
+[ 98%] Building CXX object python/CMakeFiles/nanogui-python.dir/vector.cpp.obj
+vector.cpp
+[100%] Linking CXX shared module nanogui.cp38-win_amd64.pyd
+   Creating library nanogui.lib and object nanogui.exp
+   Creating library nanogui.lib and object nanogui.exp
+[100%] Built target nanogui-python
+
+D:\3.sc_doc\00.git\qmd.gui\buildwin>

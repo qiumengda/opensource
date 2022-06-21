@@ -1,0 +1,272 @@
+ocean@ubuntu:buildu18$ cmake ..
+-- The C compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Using X11 for window creation
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/work/host/Release/windows/glfw/buildu18
+ocean@ubuntu:buildu18$ 
+ocean@ubuntu:buildu18$ cmake --build .
+Scanning dependencies of target glfw
+make[2]: Warning: File 'src/CMakeFiles/glfw.dir/depend.make' has modification time 1.5 s in the future
+[  1%] Building C object src/CMakeFiles/glfw.dir/context.c.o
+[  2%] Building C object src/CMakeFiles/glfw.dir/init.c.o
+[  3%] Building C object src/CMakeFiles/glfw.dir/input.c.o
+[  4%] Building C object src/CMakeFiles/glfw.dir/monitor.c.o
+[  5%] Building C object src/CMakeFiles/glfw.dir/vulkan.c.o
+[  5%] Building C object src/CMakeFiles/glfw.dir/window.c.o
+[  6%] Building C object src/CMakeFiles/glfw.dir/x11_init.c.o
+[  7%] Building C object src/CMakeFiles/glfw.dir/x11_monitor.c.o
+[  8%] Building C object src/CMakeFiles/glfw.dir/x11_window.c.o
+[  9%] Building C object src/CMakeFiles/glfw.dir/xkb_unicode.c.o
+[ 10%] Building C object src/CMakeFiles/glfw.dir/posix_time.c.o
+[ 11%] Building C object src/CMakeFiles/glfw.dir/posix_thread.c.o
+[ 11%] Building C object src/CMakeFiles/glfw.dir/glx_context.c.o
+[ 12%] Building C object src/CMakeFiles/glfw.dir/egl_context.c.o
+[ 13%] Building C object src/CMakeFiles/glfw.dir/osmesa_context.c.o
+[ 14%] Building C object src/CMakeFiles/glfw.dir/linux_joystick.c.o
+[ 15%] Linking C static library libglfw3.a
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 15%] Built target glfw
+Scanning dependencies of target windows
+make[2]: Warning: File 'examples/CMakeFiles/windows.dir/depend.make' has modification time 1.4 s in the future
+[ 16%] Building C object examples/CMakeFiles/windows.dir/windows.c.o
+[ 17%] Building C object examples/CMakeFiles/windows.dir/__/deps/glad_gl.c.o
+[ 18%] Linking C executable windows
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 18%] Built target windows
+Scanning dependencies of target gears
+make[2]: Warning: File 'examples/CMakeFiles/gears.dir/depend.make' has modification time 1.6 s in the future
+[ 18%] Building C object examples/CMakeFiles/gears.dir/gears.c.o
+[ 19%] Building C object examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.o
+[ 20%] Linking C executable gears
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 20%] Built target gears
+Scanning dependencies of target boing
+make[2]: Warning: File 'examples/CMakeFiles/boing.dir/depend.make' has modification time 1.4 s in the future
+[ 20%] Building C object examples/CMakeFiles/boing.dir/boing.c.o
+[ 21%] Building C object examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.o
+[ 22%] Linking C executable boing
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 22%] Built target boing
+Scanning dependencies of target offscreen
+make[2]: Warning: File 'examples/CMakeFiles/offscreen.dir/depend.make' has modification time 1.5 s in the future
+[ 23%] Building C object examples/CMakeFiles/offscreen.dir/offscreen.c.o
+[ 23%] Building C object examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.o
+[ 24%] Linking C executable offscreen
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 24%] Built target offscreen
+Scanning dependencies of target particles
+make[2]: Warning: File 'examples/CMakeFiles/particles.dir/depend.make' has modification time 1.7 s in the future
+[ 25%] Building C object examples/CMakeFiles/particles.dir/particles.c.o
+[ 26%] Building C object examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o
+[ 27%] Building C object examples/CMakeFiles/particles.dir/__/deps/getopt.c.o
+[ 28%] Building C object examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.o
+[ 29%] Linking C executable particles
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 29%] Built target particles
+Scanning dependencies of target wave
+make[2]: Warning: File 'examples/CMakeFiles/wave.dir/depend.make' has modification time 1.8 s in the future
+[ 30%] Building C object examples/CMakeFiles/wave.dir/wave.c.o
+[ 30%] Building C object examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.o
+[ 31%] Linking C executable wave
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 31%] Built target wave
+Scanning dependencies of target sharing
+make[2]: Warning: File 'examples/CMakeFiles/sharing.dir/depend.make' has modification time 2.1 s in the future
+[ 32%] Building C object examples/CMakeFiles/sharing.dir/sharing.c.o
+[ 33%] Building C object examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o
+[ 34%] Linking C executable sharing
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 34%] Built target sharing
+Scanning dependencies of target splitview
+make[2]: Warning: File 'examples/CMakeFiles/splitview.dir/depend.make' has modification time 1.3 s in the future
+[ 35%] Building C object examples/CMakeFiles/splitview.dir/splitview.c.o
+[ 36%] Building C object examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.o
+[ 36%] Linking C executable splitview
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 36%] Built target splitview
+Scanning dependencies of target heightmap
+make[2]: Warning: File 'examples/CMakeFiles/heightmap.dir/depend.make' has modification time 1.7 s in the future
+[ 37%] Building C object examples/CMakeFiles/heightmap.dir/heightmap.c.o
+[ 38%] Building C object examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.o
+[ 39%] Linking C executable heightmap
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 39%] Built target heightmap
+Scanning dependencies of target triangle-opengl
+make[2]: Warning: File 'examples/CMakeFiles/triangle-opengl.dir/depend.make' has modification time 2 s in the future
+[ 39%] Building C object examples/CMakeFiles/triangle-opengl.dir/triangle-opengl.c.o
+[ 40%] Building C object examples/CMakeFiles/triangle-opengl.dir/__/deps/glad_gl.c.o
+[ 41%] Linking C executable triangle-opengl
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 41%] Built target triangle-opengl
+Scanning dependencies of target reopen
+make[2]: Warning: File 'tests/CMakeFiles/reopen.dir/depend.make' has modification time 1.3 s in the future
+[ 41%] Building C object tests/CMakeFiles/reopen.dir/reopen.c.o
+[ 42%] Building C object tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.o
+[ 43%] Linking C executable reopen
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 43%] Built target reopen
+Scanning dependencies of target inputlag
+make[2]: Warning: File 'tests/CMakeFiles/inputlag.dir/depend.make' has modification time 1.6 s in the future
+[ 44%] Building C object tests/CMakeFiles/inputlag.dir/inputlag.c.o
+[ 45%] Building C object tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.o
+[ 45%] Building C object tests/CMakeFiles/inputlag.dir/__/deps/glad_gl.c.o
+[ 46%] Linking C executable inputlag
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 46%] Built target inputlag
+Scanning dependencies of target monitors
+make[2]: Warning: File 'tests/CMakeFiles/monitors.dir/depend.make' has modification time 1.4 s in the future
+[ 47%] Building C object tests/CMakeFiles/monitors.dir/monitors.c.o
+[ 48%] Building C object tests/CMakeFiles/monitors.dir/__/deps/getopt.c.o
+[ 48%] Building C object tests/CMakeFiles/monitors.dir/__/deps/glad_gl.c.o
+[ 49%] Linking C executable monitors
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 49%] Built target monitors
+Scanning dependencies of target iconify
+make[2]: Warning: File 'tests/CMakeFiles/iconify.dir/depend.make' has modification time 1.6 s in the future
+[ 50%] Building C object tests/CMakeFiles/iconify.dir/iconify.c.o
+[ 51%] Building C object tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o
+[ 52%] Building C object tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.o
+[ 53%] Linking C executable iconify
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 53%] Built target iconify
+Scanning dependencies of target gamma
+make[2]: Warning: File 'tests/CMakeFiles/gamma.dir/depend.make' has modification time 1.8 s in the future
+[ 54%] Building C object tests/CMakeFiles/gamma.dir/gamma.c.o
+[ 55%] Building C object tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.o
+[ 56%] Linking C executable gamma
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 56%] Built target gamma
+Scanning dependencies of target icon
+make[2]: Warning: File 'tests/CMakeFiles/icon.dir/depend.make' has modification time 1.6 s in the future
+[ 57%] Building C object tests/CMakeFiles/icon.dir/icon.c.o
+[ 57%] Building C object tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.o
+[ 58%] Linking C executable icon
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 58%] Built target icon
+Scanning dependencies of target tearing
+make[2]: Warning: File 'tests/CMakeFiles/tearing.dir/depend.make' has modification time 2 s in the future
+[ 59%] Building C object tests/CMakeFiles/tearing.dir/tearing.c.o
+[ 60%] Building C object tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.o
+[ 61%] Linking C executable tearing
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 61%] Built target tearing
+Scanning dependencies of target empty
+make[2]: Warning: File 'tests/CMakeFiles/empty.dir/depend.make' has modification time 1.4 s in the future
+[ 62%] Building C object tests/CMakeFiles/empty.dir/empty.c.o
+[ 63%] Building C object tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o
+[ 64%] Building C object tests/CMakeFiles/empty.dir/__/deps/glad_gl.c.o
+[ 65%] Linking C executable empty
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 65%] Built target empty
+Scanning dependencies of target events
+make[2]: Warning: File 'tests/CMakeFiles/events.dir/depend.make' has modification time 1.4 s in the future
+[ 65%] Building C object tests/CMakeFiles/events.dir/events.c.o
+[ 66%] Building C object tests/CMakeFiles/events.dir/__/deps/getopt.c.o
+[ 67%] Building C object tests/CMakeFiles/events.dir/__/deps/glad_gl.c.o
+[ 68%] Linking C executable events
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 68%] Built target events
+Scanning dependencies of target msaa
+make[2]: Warning: File 'tests/CMakeFiles/msaa.dir/depend.make' has modification time 1.5 s in the future
+[ 69%] Building C object tests/CMakeFiles/msaa.dir/msaa.c.o
+[ 70%] Building C object tests/CMakeFiles/msaa.dir/__/deps/getopt.c.o
+[ 71%] Building C object tests/CMakeFiles/msaa.dir/__/deps/glad_gl.c.o
+[ 72%] Linking C executable msaa
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 72%] Built target msaa
+Scanning dependencies of target cursor
+make[2]: Warning: File 'tests/CMakeFiles/cursor.dir/depend.make' has modification time 1.7 s in the future
+[ 72%] Building C object tests/CMakeFiles/cursor.dir/cursor.c.o
+[ 73%] Building C object tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.o
+[ 74%] Linking C executable cursor
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 74%] Built target cursor
+Scanning dependencies of target threads
+make[2]: Warning: File 'tests/CMakeFiles/threads.dir/depend.make' has modification time 2 s in the future
+[ 75%] Building C object tests/CMakeFiles/threads.dir/threads.c.o
+[ 76%] Building C object tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.o
+[ 77%] Building C object tests/CMakeFiles/threads.dir/__/deps/glad_gl.c.o
+[ 77%] Linking C executable threads
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 77%] Built target threads
+Scanning dependencies of target glfwinfo
+make[2]: Warning: File 'tests/CMakeFiles/glfwinfo.dir/depend.make' has modification time 1.9 s in the future
+[ 78%] Building C object tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o
+[ 79%] Building C object tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o
+[ 79%] Building C object tests/CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.o
+[ 80%] Building C object tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o
+[ 81%] Linking C executable glfwinfo
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 81%] Built target glfwinfo
+Scanning dependencies of target joysticks
+make[2]: Warning: File 'tests/CMakeFiles/joysticks.dir/depend.make' has modification time 1.9 s in the future
+[ 82%] Building C object tests/CMakeFiles/joysticks.dir/joysticks.c.o
+[ 83%] Building C object tests/CMakeFiles/joysticks.dir/__/deps/glad_gl.c.o
+[ 84%] Linking C executable joysticks
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 84%] Built target joysticks
+Scanning dependencies of target clipboard
+make[2]: Warning: File 'tests/CMakeFiles/clipboard.dir/depend.make' has modification time 1.7 s in the future
+[ 85%] Building C object tests/CMakeFiles/clipboard.dir/clipboard.c.o
+[ 86%] Building C object tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.o
+[ 87%] Building C object tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.o
+[ 88%] Linking C executable clipboard
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 88%] Built target clipboard
+Scanning dependencies of target title
+make[2]: Warning: File 'tests/CMakeFiles/title.dir/depend.make' has modification time 1.8 s in the future
+[ 89%] Building C object tests/CMakeFiles/title.dir/title.c.o
+[ 90%] Building C object tests/CMakeFiles/title.dir/__/deps/glad_gl.c.o
+[ 91%] Linking C executable title
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 91%] Built target title
+Scanning dependencies of target triangle-vulkan
+make[2]: Warning: File 'tests/CMakeFiles/triangle-vulkan.dir/depend.make' has modification time 2.2 s in the future
+[ 92%] Building C object tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o
+[ 93%] Building C object tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o
+[ 94%] Linking C executable triangle-vulkan
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 94%] Built target triangle-vulkan
+Scanning dependencies of target window
+make[2]: Warning: File 'tests/CMakeFiles/window.dir/depend.make' has modification time 1.4 s in the future
+[ 95%] Building C object tests/CMakeFiles/window.dir/window.c.o
+[ 96%] Building C object tests/CMakeFiles/window.dir/__/deps/glad_gl.c.o
+[ 97%] Linking C executable window
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 97%] Built target window
+Scanning dependencies of target timeout
+make[2]: Warning: File 'tests/CMakeFiles/timeout.dir/depend.make' has modification time 2.1 s in the future
+[ 98%] Building C object tests/CMakeFiles/timeout.dir/timeout.c.o
+[ 99%] Building C object tests/CMakeFiles/timeout.dir/__/deps/glad_gl.c.o
+[100%] Linking C executable timeout
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target timeout
