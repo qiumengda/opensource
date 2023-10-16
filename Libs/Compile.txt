@@ -1,0 +1,44 @@
+
+[Build c-ares]
+cd c-ares-1.20.1
+./configure --prefix=`pwd`/../../cares --disable-shared --disable-tests
+make
+make install
+
+[Build zlib]
+./configure --prefix=`pwd`/../zlib --static
+make
+make install
+
+[Build OpenSSL]
+sources: openssl-1.1.1g
+./config --prefix=`pwd`/../openssl
+make
+make install
+
+[Build curl by buildconf]
+sources: 1100/android/external/curl
+./buildconf
+?export CPPFLAGS=-DOS=\"linux\"
+export CPPFLAGS=-DOS=linux
+#Makefile +322 -DOS=linux
+vi src/tool_version.h +32 OS -> "linux"
+./configure --prefix=`pwd`/../curl --with-ssl=`pwd`/../openssl --with-zlib=`pwd`/../zlib --disable-ldap --disable-ldaps --enable-shared=no --enable-static=yes
+make
+make install
+
+[Build curl by cmake]
+vi CMakeList.txt +50
+----
+set(CMAKE_INSTALL_PREFIX  ${CMAKE_SOURCE_DIR}/../../curl)
+set(OPENSSL_ROOT_DIR ${CMAKE_SOURCE_DIR}/../../openssl) 
+add_definitions(-DOS="linux")
+...
+option(CURL_STATICLIB "Set to ON to build libcurl with static linking." ON)
+----
+mkdir build
+cd build
+cmake ..
+make
+make install
+
